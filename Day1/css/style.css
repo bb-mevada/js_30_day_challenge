@@ -1,0 +1,50 @@
+/* Pre Stuff */
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Universal */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 5px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Change Color Button */
+.container .change-color-button {
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+/* Magic Button */
+.container .magic-button {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.container .magic-button:hover {
+    font-size: 16px;
+    border: 2px solid;
+}
